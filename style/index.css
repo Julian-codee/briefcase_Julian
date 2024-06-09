@@ -19,6 +19,10 @@ header  .info-header {
 header .personal-img{
     width: 40%;
     margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header  .personal-img  img{
@@ -135,6 +139,30 @@ hr{
 
 /*Diseño Referencias*/
 
+.card-references {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 .card-references .info{
-    
+    width: 70%;
+    border: 0.12rem solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.card-references .info p{
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
 }
