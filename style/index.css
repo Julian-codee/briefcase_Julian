@@ -166,3 +166,44 @@ hr{
     margin-top: 0.5rem;
     font-weight: bold;
 }
+
+.cards-experience{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-experience{
+     width: 70%;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cards-experience img{
+    width: 60%;
+    margin-top: 1rem;
+    border-radius: 10rem;
+}
+
+progress{
+    width: 70%;
+    height: 2rem;
+}
+
+progress::-webkit-progress-bar{
+    background-color: #39a900;
+    border-radius: 1rem;
+}
+
+progress::-webkit-progress-value{
+    background-color: #39a900;
+    border-radius: 1rem;
+}
