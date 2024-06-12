@@ -178,8 +178,8 @@ hr{
 }
 
 .info-experience{
-     width: 70%;
-    margin-top: 0.5rem;
+    width: 70%;
+    margin-top: 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,23 +187,30 @@ hr{
     gap: 1rem;
 }
 
+.info-experience p{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
 .cards-experience img{
     width: 60%;
-    margin-top: 1rem;
-    border-radius: 10rem;
 }
 
-progress{
-    width: 70%;
-    height: 2rem;
+progress[value]{
+    border-radius: 1rem;
+    width: 130px;
+    height: 20px;
+    margin-top: 0.5rem;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
-progress::-webkit-progress-bar{
-    background-color: #39a900;
+progress[value]::-webkit-progress-bar{
+    background-color: #8ce062;
     border-radius: 1rem;
 }
 
-progress::-webkit-progress-value{
+progress[value]::-webkit-progress-value{
     background-color: #39a900;
     border-radius: 1rem;
 }
