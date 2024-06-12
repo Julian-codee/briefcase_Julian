@@ -17,7 +17,7 @@ header  .info-header {
 }
 
 header .personal-img{
-    width: 40%;
+    width: 35%;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -53,6 +53,7 @@ header .personal-info{
 }
 
 header p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     margin-bottom: 0.8rem;
     margin-top: 1rem;
@@ -217,4 +218,76 @@ progress[value]::-webkit-progress-bar{
 progress[value]::-webkit-progress-value{
     background-color: #39a900;
     border-radius: 1rem;
+}
+
+/*Media*/
+
+@media screen and (min-width: 820px) and (max-width: 1200px){
+    
+    header > .info-header{
+        display: flex;
+        width: 100%;
+    }
+
+    .personal-img{
+        width: 40%;
+        margin: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .info-header > .personal-info{
+        width: 60%;
+        margin-right: 2.5rem;
+    }
+
+    .sena{
+        margin-left: 2.5rem;
+    }
+
+    hr{
+        margin-left: 2.6rem;
+    }
+
+    
+    .cards-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+
+    .card-projects{
+        width: 45%;
+        display: flex;
+    margin-top: 0.5rem;
+    }
+
+    .card-references{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+
+    .card-references > .info{
+        width: 45%;
+        display: flex;
+    margin-top: 0.5rem;
+    }
+
+    .cards-experience{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+
+    .info-experience{
+        width: 20%;
+        display: flex;
+    margin-top: 0.5rem;
+    }
+
 }
