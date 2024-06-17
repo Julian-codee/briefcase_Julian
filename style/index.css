@@ -59,6 +59,32 @@ header p{
     margin-top: 1rem;
 }
 
+.header-contact{
+    margin-top: 17rem;
+}
+
+.header-contact > h2{
+text-align: center;
+margin: 3rem;
+}
+
+.header-contact > hr{
+    width: 90%;
+    height: 0.3rem;
+    border-radius: 5rem;
+    background-color:#b4e49c;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.icons-social {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin: 2rem;
+}
+
 /*Diseño main*/
 
 .sena{
@@ -220,9 +246,53 @@ progress[value]::-webkit-progress-value{
     border-radius: 1rem;
 }
 
+/*FOOTER*/
+
+footer {
+    background-color: #39a900;
+    height: 6rem;
+    margin-top: 3rem;
+}
+
+footer>h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+footer>hr {
+    width: 93%;
+    height: 0.3rem;
+    border-radius: 5rem;
+    border: none;
+    background-color: #b4e49c;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+}
+
+
+footer>.icons-social {
+    color: white;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+
 /*Media-1*/
 
-@media screen and (min-width: 820px) and (max-width: 1200px){
+@media screen and (min-width: 393px) and (max-width: 600px){
+    .header-contact{
+        display: none;
+    }
+}
+
+/*Media-2*/
+
+@media screen and (min-width: 820px) and (max-width: 1180px){
     
     header > .info-header{
         display: flex;
@@ -235,6 +305,10 @@ progress[value]::-webkit-progress-value{
         display: flex;
         justify-content: center;
         align-items: flex-start;
+    }
+
+    .header-contact{
+        display: none;
     }
 
     .info-header > .personal-info{
@@ -292,8 +366,41 @@ progress[value]::-webkit-progress-value{
 
 }
 
-/*Media-2*/
+/*Media-3*/
 
-@media screen and (min-width: 550px) and (max-width: 1200px){
+@media screen and (min-width: 1200px) and (max-width: 1920px){
+    
+    body{
+        width: 70%;
+        display: flex;
+    }
+    
+    header{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
 
+    .info-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-header > .personal-img{
+        width: 100%;
+        margin-top: rem;
+        margin-left: -0.5rem;
+    }
+
+    .info-header > .personal-img h1{
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .info-header > .personal-info{
+        font-size: 0.9rem;
+        width: 80%;
+        margin-left: 1.4rem;
+
+    }
 }
