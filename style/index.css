@@ -60,7 +60,7 @@ header p{
 }
 
 .header-contact{
-    margin-top: 17rem;
+    margin-top: 5rem;
 }
 
 .header-contact > h2{
@@ -68,6 +68,7 @@ text-align: center;
 margin: 3rem;
 }
 
+    
 .header-contact > hr{
     width: 90%;
     height: 0.3rem;
@@ -84,6 +85,11 @@ margin: 3rem;
     margin-top: 1rem;
     margin: 2rem;
 }
+
+.header-contact > .icons-social > p > a{
+    text-decoration: none;
+    color: white;
+    }   
 
 /*Diseño main*/
 
@@ -250,29 +256,29 @@ progress[value]::-webkit-progress-value{
 
 footer {
     background-color: #39a900;
-    height: 6rem;
+    height: 7rem;
     margin-top: 3rem;
 }
 
-footer>h2 {
+footer > .footer-contact > h2 {
     text-align: center;
     color: white;
     font-weight: bold;
     margin-top: 2rem;
 }
 
-footer>hr {
-    width: 93%;
+footer> .footer-contact > hr {
+    width: 90%;
     height: 0.3rem;
     border-radius: 5rem;
     border: none;
     background-color: #b4e49c;
     margin-top: 1rem;
-    margin-left: 0.8rem;
+    margin-left: 1.4rem;
 }
 
 
-footer>.icons-social {
+footer >.footer-contact> .icons-social {
     color: white;
     display: flex;
     margin-top: 1rem;
@@ -287,6 +293,16 @@ footer>.icons-social {
 @media screen and (min-width: 393px) and (max-width: 600px){
     .header-contact{
         display: none;
+    }
+
+    footer> .footer-contact > hr {
+        width: 90%;
+        height: 0.3rem;
+        border-radius: 5rem;
+        border: none;
+        background-color: #b4e49c;
+        margin-top: 1rem;
+        margin-left: 1.4rem;
     }
 }
 
@@ -364,6 +380,16 @@ footer>.icons-social {
     margin-top: 0.5rem;
     }
 
+    footer> .footer-contact > hr {
+        width: 90%;
+        height: 0.3rem;
+        border-radius: 5rem;
+        border: none;
+        background-color: #b4e49c;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+
 }
 
 /*Media-3*/
@@ -402,5 +428,19 @@ footer>.icons-social {
         width: 80%;
         margin-left: 1.4rem;
 
+    }
+
+    .header-contact > .icons-social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-contact > .icons-social > p{
+        display: flex;
+       flex-wrap: wrap;
+    }
+
+    footer{
+        display: none;
     }
 }
