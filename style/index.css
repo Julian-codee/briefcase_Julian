@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -6,17 +6,17 @@
 
 /*Diseño Header*/
 
-header{
-    background-color:  #39a900;
-  font-size: 0.9rem;
-  color: white;
+header {
+    background-color: #39a900;
+    font-size: 0.9rem;
+    color: white;
 }
 
-header  .info-header {
-    display: flex;  
+header .info-header {
+    display: flex;
 }
 
-header .personal-img{
+header .personal-img {
     width: 35%;
     margin: 0.5rem;
     display: flex;
@@ -25,7 +25,7 @@ header .personal-img{
     align-items: center;
 }
 
-header  .personal-img  img{
+header .personal-img img {
     width: 7rem;
     height: 7rem;
     border-radius: 20rem;
@@ -37,14 +37,14 @@ header  .personal-img  img{
     margin-left: 1rem;
 }
 
-header h1{
+header h1 {
     font-size: 1rem;
     text-align: center;
     margin-bottom: 1.5rem;
     margin-top: 1rem;
 }
 
-header .personal-info{
+header .personal-info {
     width: 60%;
     margin: 0.5rem;
     padding: 0.5rem;
@@ -52,54 +52,105 @@ header .personal-info{
     margin-top: 1.5rem;
 }
 
-header p{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+header p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     margin-bottom: 0.8rem;
     margin-top: 1rem;
 }
 
-.header-contact{
+.header-contact {
     margin-top: 5rem;
 }
 
-.header-contact > h2{
-text-align: center;
-margin: 3rem;
+.header-contact>h2 {
+    text-align: center;
+    margin: 0.5rem;
 }
 
-    
-.header-contact > hr{
+
+.header-contact>hr {
     width: 90%;
     height: 0.3rem;
     border-radius: 5rem;
-    background-color:#b4e49c;
+    background-color: #b4e49c;
     margin-top: 1rem;
     margin-left: 1rem;
 }
+
 .icons-social {
     display: flex;
-    align-items: center;
-    align-self: center;
     justify-content: space-evenly;
     margin-top: 1rem;
     margin: 2rem;
 }
 
-.header-contact > .icons-social > p > a{
+.header-contact>.icons-social>p {
     text-decoration: none;
     color: white;
-    }   
+    margin-left: 2rem;
+}
+
+.header-contact>.icons-social> .ig > p>a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Contenedores especificos icons-social*/
+
+.phone {
+    display: flex;
+
+}
+
+.phone>p {
+    margin-left: 1rem;
+    margin-top: 0.1rem;
+}
+
+.mail {
+    display: flex;
+
+}
+
+.mail>p {
+    margin-left: 1rem;
+    margin-top: 0.1rem;
+}
+
+
+.ig {
+    display: flex;
+
+}
+
+.ig>p {
+    margin-left: 1rem;
+    margin-top: 0.1rem;
+}
+
+
+.wp {
+    display: flex;
+
+}
+
+.wp>p {
+    margin-left: 1rem;
+    margin-top: 0.1rem;
+}
+
 
 /*Diseño main*/
 
-.sena{
+.sena {
     display: flex;
     margin-top: 2rem;
     margin-left: 1rem;
 }
 
-.sena img{
+.sena img {
     width: 2.5rem;
     border-radius: 10rem;
     -webkit-border-radius: 10rem;
@@ -109,12 +160,12 @@ margin: 3rem;
     margin-left: 0.3rem;
 }
 
-.sena h2{
+.sena h2 {
     margin-top: 0.5rem;
     color: #39a900;
 }
 
-hr{
+hr {
     width: 90%;
     height: 0.3rem;
     background-color: #39a900;
@@ -126,7 +177,7 @@ hr{
 
 /*Diseño cards Proyectos*/
 
-.cards-1{
+.cards-1 {
     width: 100%;
     margin-top: 1rem;
     display: flex;
@@ -136,7 +187,7 @@ hr{
     gap: 1rem;
 }
 
-.card-projects{
+.card-projects {
     width: 80%;
     color: white;
     background-color: #39a900;
@@ -145,11 +196,11 @@ hr{
     margin-top: 0.5rem;
 }
 
-.card-projects img{
+.card-projects img {
     width: 35%;
 }
 
-.info-project{
+.info-project {
     width: 60%;
     display: flex;
     justify-content: center;
@@ -157,16 +208,16 @@ hr{
     flex-direction: column;
 }
 
-.info-project h3{
+.info-project h3 {
     margin-top: 0.8rem;
-   }
-
-.info-project p{
- margin-top: 0.3rem;
 }
 
-.info-project a{
-    color:black;
+.info-project p {
+    margin-top: 0.3rem;
+}
+
+.info-project a {
+    color: black;
     text-decoration: none;
     margin-top: 1rem;
     font-weight: bold;
@@ -186,7 +237,7 @@ hr{
     gap: 1rem;
 }
 
-.card-references .info{
+.card-references .info {
     width: 70%;
     border: 0.12rem solid black;
     color: black;
@@ -197,14 +248,14 @@ hr{
     margin-top: 0.5rem;
 }
 
-.card-references .info p{
+.card-references .info p {
     margin-left: 1rem;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
     font-weight: bold;
 }
 
-.cards-experience{
+.cards-experience {
     width: 100%;
     margin-top: 1rem;
     display: flex;
@@ -214,7 +265,7 @@ hr{
     gap: 1rem;
 }
 
-.info-experience{
+.info-experience {
     width: 70%;
     margin-top: 0.2rem;
     display: flex;
@@ -224,16 +275,16 @@ hr{
     gap: 1rem;
 }
 
-.info-experience p{
+.info-experience p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
-.cards-experience img{
+.cards-experience img {
     width: 60%;
 }
 
-progress[value]{
+progress[value] {
     border-radius: 1rem;
     width: 130px;
     height: 20px;
@@ -242,12 +293,12 @@ progress[value]{
     -webkit-appearance: none;
 }
 
-progress[value]::-webkit-progress-bar{
+progress[value]::-webkit-progress-bar {
     background-color: #8ce062;
     border-radius: 1rem;
 }
 
-progress[value]::-webkit-progress-value{
+progress[value]::-webkit-progress-value {
     background-color: #39a900;
     border-radius: 1rem;
 }
@@ -260,14 +311,14 @@ footer {
     margin-top: 3rem;
 }
 
-footer > .footer-contact > h2 {
+footer>.footer-contact>h2 {
     text-align: center;
     color: white;
     font-weight: bold;
     margin-top: 2rem;
 }
 
-footer> .footer-contact > hr {
+footer>.footer-contact>hr {
     width: 90%;
     height: 0.3rem;
     border-radius: 5rem;
@@ -278,7 +329,7 @@ footer> .footer-contact > hr {
 }
 
 
-footer >.footer-contact> .icons-social {
+footer>.footer-contact>.icons-social {
     color: white;
     display: flex;
     margin-top: 1rem;
@@ -290,12 +341,12 @@ footer >.footer-contact> .icons-social {
 
 /*Media-1*/
 
-@media screen and (min-width: 393px) and (max-width: 600px){
-    .header-contact{
+@media screen and (min-width: 393px) and (max-width: 600px) {
+    .header-contact {
         display: none;
     }
 
-    footer> .footer-contact > hr {
+    footer>.footer-contact>hr {
         width: 90%;
         height: 0.3rem;
         border-radius: 5rem;
@@ -308,14 +359,14 @@ footer >.footer-contact> .icons-social {
 
 /*Media-2*/
 
-@media screen and (min-width: 820px) and (max-width: 1180px){
-    
-    header > .info-header{
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+
+    header>.info-header {
         display: flex;
         width: 100%;
     }
 
-    .personal-img{
+    .personal-img {
         width: 40%;
         margin: 0.5rem;
         display: flex;
@@ -323,64 +374,64 @@ footer >.footer-contact> .icons-social {
         align-items: flex-start;
     }
 
-    .header-contact{
+    .header-contact {
         display: none;
     }
 
-    .info-header > .personal-info{
+    .info-header>.personal-info {
         width: 60%;
         margin-right: 2.5rem;
     }
 
-    .sena{
+    .sena {
         margin-left: 2.5rem;
     }
 
-    hr{
+    hr {
         margin-left: 2.6rem;
     }
 
-    
-    .cards-1{
+
+    .cards-1 {
         width: 100%;
         display: flex;
         flex-direction: row;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
 
-    .card-projects{
+    .card-projects {
         width: 45%;
         display: flex;
-    margin-top: 0.5rem;
+        margin-top: 0.5rem;
     }
 
-    .card-references{
+    .card-references {
         width: 100%;
         display: flex;
         flex-direction: row;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
 
-    .card-references > .info{
+    .card-references>.info {
         width: 45%;
         display: flex;
-    margin-top: 0.5rem;
+        margin-top: 0.5rem;
     }
 
-    .cards-experience{
+    .cards-experience {
         width: 100%;
         display: flex;
         flex-direction: row;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
 
-    .info-experience{
+    .info-experience {
         width: 20%;
         display: flex;
-    margin-top: 0.5rem;
+        margin-top: 0.5rem;
     }
 
-    footer> .footer-contact > hr {
+    footer>.footer-contact>hr {
         width: 90%;
         height: 0.3rem;
         border-radius: 5rem;
@@ -394,53 +445,58 @@ footer >.footer-contact> .icons-social {
 
 /*Media-3*/
 
-@media screen and (min-width: 1200px) and (max-width: 1920px){
-    
-    body{
-        width: 70%;
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
+
+    body {
+        width: 80%;
         display: flex;
     }
-    
-    header{
-        width: 30%;
+
+    header {
+        width: 20%;
         display: flex;
         flex-direction: column;
     }
 
-    .info-header{
+    .info-header {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 290px;
+        height: 940px;
     }
 
-    .info-header > .personal-img{
+    .info-header>.personal-img {
         width: 100%;
         margin-top: rem;
         margin-left: -0.5rem;
     }
 
-    .info-header > .personal-img h1{
+    .info-header>.personal-img h1 {
         font-size: 1.5rem;
         margin-left: 0.5rem;
     }
 
-    .info-header > .personal-info{
+    .info-header>.personal-info {
         font-size: 0.9rem;
         width: 80%;
         margin-left: 1.4rem;
 
     }
 
-    .header-contact > .icons-social {
+    .header-contact>.icons-social {
         display: flex;
         flex-direction: column;
     }
 
-    .header-contact > .icons-social > p{
+    .header-contact>.icons-social>p {
         display: flex;
-       flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
-    footer{
+    footer {
         display: none;
     }
 }
