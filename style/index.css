@@ -448,12 +448,12 @@ footer>.footer-contact>.icons-social {
 @media screen and (min-width: 1200px) and (max-width: 1920px) {
 
     body {
-        width: 80%;
+        width: 70%;
         display: flex;
     }
 
     header {
-        width: 20%;
+        width: 30%;
         display: flex;
         flex-direction: column;
     }
@@ -464,7 +464,7 @@ footer>.footer-contact>.icons-social {
         justify-content: center;
         align-items: center;
         position: fixed;
-        width: 290px;
+        width: 315px;
         height: 940px;
     }
 
