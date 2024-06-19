@@ -85,13 +85,9 @@ header p {
     margin: 2rem;
 }
 
-.header-contact>.icons-social>p {
-    text-decoration: none;
-    color: white;
-    margin-left: 2rem;
-}
 
-.header-contact>.icons-social> .ig > p>a {
+
+.header-contact>.icons-social> .ig > a {
     text-decoration: none;
     color: white;
 }
@@ -104,9 +100,12 @@ header p {
 
 }
 
-.phone>p {
+.phone>a {
     margin-left: 1rem;
     margin-top: 0.1rem;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0.6rem;
 }
 
 .mail {
@@ -114,9 +113,12 @@ header p {
 
 }
 
-.mail>p {
+.mail>a{
     margin-left: 1rem;
     margin-top: 0.1rem;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0.6rem;
 }
 
 
@@ -124,9 +126,12 @@ header p {
     display: flex;
 }
 
-.ig>p {
+.ig>a {
     margin-left: 1rem;
     margin-top: 0.1rem;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0.6rem;
 }
 
 
@@ -135,9 +140,12 @@ header p {
 
 }
 
-.wp>p {
+.wp>a {
     margin-left: 1rem;
     margin-top: 0.1rem;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0.6rem;
 }
 
 
