@@ -122,7 +122,6 @@ header p {
 
 .ig {
     display: flex;
-
 }
 
 .ig>p {
@@ -469,6 +468,11 @@ footer>.footer-contact>.icons-social {
     .info-header > .personal-img{
         width: 100%;
     }
+
+    .info-header > .personal-img > img{
+        width: 50%;
+        height: 60%;
+    }
     
     .personal-img > h1{
         font-size: 1.5rem;
@@ -498,7 +502,47 @@ footer>.footer-contact>.icons-social {
         margin-left: 2rem;
     }
 
-    
+    .cards-1 {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-projects {
+        width: 45%;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .card-references {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-references>.info {
+        width: 45%;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .cards-experience {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .info-experience {
+        width: 20%;
+        display: flex;
+        margin-top: 0.5rem;
+    }
+
 
     footer{
         display: none;
