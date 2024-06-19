@@ -347,6 +347,8 @@ footer>.footer-contact>.icons-social {
 
 .icons-social > a{
     color: white;
+    width: 2rem;
+    height: 2rem;
 }
 
 
