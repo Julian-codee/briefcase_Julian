@@ -359,7 +359,7 @@ footer>.footer-contact>.icons-social {
 
 /*Media-2*/
 
-@media screen and (min-width: 601px) and (max-width: 820px) {
+@media screen and (min-width: 601px) and (max-width: 1020px) {
 
     header>.info-header {
         display: flex;
@@ -445,7 +445,7 @@ footer>.footer-contact>.icons-social {
 
 /*Media-3*/
 
-@media screen and (min-width: 1555px) and (max-width: 1920px) {
+@media screen and (min-width: 1030px) and (max-width: 1920px) {
 
     body {
         width: 70%;
@@ -470,7 +470,7 @@ footer>.footer-contact>.icons-social {
 
     .info-header>.personal-img {
         width: 100%;
-        margin-top: rem;
+        margin-top: 1rem;
         margin-left: -0.5rem;
     }
 
