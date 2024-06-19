@@ -345,6 +345,10 @@ footer>.footer-contact>.icons-social {
     justify-content: space-evenly;
 }
 
+.icons-social > a{
+    color: white;
+}
+
 
 /*Media-1*/
 
