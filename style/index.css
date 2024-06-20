@@ -562,3 +562,124 @@ footer>.footer-contact>.icons-social {
         display: none;
     }
 }
+
+/*Media-4*/
+
+@media screen and (min-width: 1921px){
+    body{
+        width: 100%;
+        display: flex;
+    }
+
+    header{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .info-header > .personal-img{
+        width: 100%;
+    }
+
+    .info-header > .personal-img > img{
+        width: 50%;
+        height: 60%;
+    }
+    
+    .personal-img > h1{
+        font-size: 1.5rem;
+    }
+
+    .personal-info{
+        font-size: 1.3rem;
+    }
+
+    .info-header > .personal-info{
+        width: 85%;
+    }
+
+    .header-contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-contact > hr{
+        width: 85%;
+        margin-left: 2.5rem;
+    }
+
+    .header-contact > .icons-social{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3rem;
+        align-self: center;
+    }
+
+    main{
+        width: 75%;
+        margin-left: 2rem;
+    }
+
+    .cards-1 {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-projects {
+        width: 40%;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .card-projects > .info-project {
+        font-size: 1.4rem;
+    }
+
+    .card-projects > .info-project > a{
+        font-size: 1.3rem;
+    }
+
+    .card-references {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-references>.info {
+        width: 45%;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .cards-experience {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .info-experience {
+        width: 20%;
+        display: flex;
+        margin-top: 0.5rem;
+    }
+
+
+    footer{
+        display: none;
+    }
+}
