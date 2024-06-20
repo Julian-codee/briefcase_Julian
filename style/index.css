@@ -516,6 +516,12 @@ footer>.footer-contact>.icons-social {
         margin-left: 2rem;
     }
 
+    .sena > h2{
+        margin-top: 0.5rem;
+        font-size: 1..5rem;
+        margin-left: 0.5rem;
+    }
+
     .cards-1 {
         width: 95%;
         display: flex;
@@ -526,9 +532,13 @@ footer>.footer-contact>.icons-social {
     }
 
     .card-projects {
-        width: 45%;
+        width: 46%;
         display: flex;
         margin-top: 1rem;
+    }
+
+    .card-projects > img {
+        width: 25%;
     }
 
     .card-references {
@@ -629,6 +639,16 @@ footer>.footer-contact>.icons-social {
         margin-left: 2rem;
     }
 
+    .sena > img{
+        width: 3.5%;
+    }
+
+    .sena > h2{
+        margin-top: 1rem;
+        font-size: 2rem;
+        margin-left: 0.5rem;
+    }
+
     .cards-1 {
         width: 95%;
         display: flex;
@@ -639,9 +659,13 @@ footer>.footer-contact>.icons-social {
     }
 
     .card-projects {
-        width: 40%;
+        width: 46%;
         display: flex;
         margin-top: 1rem;
+    }
+
+    .card-projects > img {
+        width: 20%;
     }
 
     .card-projects > .info-project {
@@ -663,6 +687,7 @@ footer>.footer-contact>.icons-social {
         width: 45%;
         display: flex;
         margin-top: 1rem;
+        font-size: 1.2rem;
     }
 
     .cards-experience {
@@ -676,6 +701,10 @@ footer>.footer-contact>.icons-social {
         width: 20%;
         display: flex;
         margin-top: 0.5rem;
+    }
+
+    .info-experience > p{
+        font-size: 1.5rem;
     }
 
 
